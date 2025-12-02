@@ -71,8 +71,7 @@ function App() {
     <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
       <div>
         {loading ? 
-        <p>Loading...</p> 
-        :
+        <p>Loading...</p> :
         <>
         <h1>{poke?.name}</h1>
       <button onClick={addFav} >Add to favourite</button>
